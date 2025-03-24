@@ -10,7 +10,7 @@ let cue = null;
 const loader = new GLTFLoader();
 let strength = 3;
 
-loader.load("./assets/poolcue.glb", function (gltf) {
+loader.load("./Assets/poolcue.glb", function (gltf) {
     cue = gltf.scene;
     cue.rotation.z = -0.1;
     cue.position.set(balls[0].ball.position.x-0.1, balls[0].ball.position.y, balls[0].ball.position.z);

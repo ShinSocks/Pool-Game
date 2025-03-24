@@ -68,7 +68,7 @@ const createEmissiveMaterial = (color, intensity = 2) => {
 
 // Load Pool Table
 const loader = new GLTFLoader();
-loader.load("./assets/pooltable.glb", function (gltf) {
+loader.load("./Assets/pooltable.glb", function (gltf) {
     const model = gltf.scene;
     const box = new THREE.Box3().setFromObject(model);
     const center = box.getCenter(new THREE.Vector3());
