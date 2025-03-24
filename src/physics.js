@@ -69,7 +69,7 @@ function checkCollisions(deltaTime) {
 }
 
 const boundingBoxes = [];
-const boxSize = new THREE.Vector3(0.1, 0.1, 0.1);  // Set box dimensions
+const boxSize = new THREE.Vector3(0.07, 0.07, 0.07);  // Set box dimensions
 
 // Array of designated positions
 const positions = [
